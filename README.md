@@ -189,3 +189,16 @@ Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was sa
 ----|----|----
 [Nurutomo](https://github.com/Nurutomo) | [Ariffb](https://github.com/ariffb25) | [F](https://github.com/Alfarqun)
  Author | suhu | suhu
+ 
+------
+ 
+### Github Stats 
+
+![github card](https://github-readme-stats.vercel.app/api?username=FahriAdison&show_icons=true&theme=radical)
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=FahriAdison&theme=monokai)
+
+### Repo Stats 
+
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=FahriAdison&repo=Marin-MD&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=FahriAdison&repo=Ran-Bot&theme=dark)
