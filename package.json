@@ -1,7 +1,7 @@
 {
-    "name": "Ebot-md",
+    "name": "Marin-MD",
     "version": "3.5.4",
-    "description": "Simple Bot WhatsApp with Baileys Multi Device",
+    "description": "Bot WhatsApp Multi Device",
     "depecrated": false,
     "main": "index.js",
     "directories": {
@@ -37,9 +37,9 @@
     "license": "GPL-3.0-or-later",
     "dependencies": {
         "@adiwajshing/baileys-md": "github:ilmanhdyt/baileys#multi-device",
+        "@bochilteam/scraper": "github:bochilteam/scraper",
         "awesome-phonenumber": "^2.64.0",
         "axios": "^0.24.0",
-        "@bochilteam/scraper": "^0.0.5",
         "cfonts": "^2.10.0",
         "chalk": "^4.1.2",
         "cheerio": "^1.0.0-rc.10",
@@ -53,8 +53,8 @@
         "jsdom": "^18.1.1",
         "lodash": "^4.17.21",
         "lowdb": "^2.1.0",
-        "mongoose": "^6.0.14",
         "moment-timezone": "^0.5.34",
+        "mongoose": "^6.0.14",
         "node-fetch": "^2.6.6",
         "node-gtts": "2.0.2",
         "node-webpmux": "^3.1.0",

@@ -1,10 +1,10 @@
 <p align="center">
-<img src="https://telegra.ph/file/5a28bc4534bf122fcc882.jpg" alt="EBOT MD" width="250"/>
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ea5fe983-3ed6-4652-84a4-933a663d784b/deytppn-e87cdb19-ad39-4247-b629-9dcede510a32.jpg/v1/fill/w_1280,h_1278,q_75,strp/marin_kitagawa_by_eynight74_deytppn-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI3OCIsInBhdGgiOiJcL2ZcL2VhNWZlOTgzLTNlZDYtNDY1Mi04NGE0LTkzM2E2NjNkNzg0YlwvZGV5dHBwbi1lODdjZGIxOS1hZDM5LTQyNDctYjYyOS05ZGNlZGU1MTBhMzIuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.pFnKndipzybcE3VAU2em7bK1wORwu9UZGgFUDpccpsw" alt="MARIN MD" width="250"/>
 
 
 </p>
 <p align="center">
-<a href="#"><img title="EBOT MD" src="https://img.shields.io/badge/GANTI SESSIONNYA DULU SEBELUM PAKAI-red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="MARIN MD" src="https://img.shields.io/badge/GANTI SESSIONNYA DULU SEBELUM PAKAI,DAN JANGAN LUPA GANTI APIKEY NYA SEBELUM PAKAI-red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
 </p>
@@ -13,17 +13,21 @@
 <p align="center">
 </p>
 <p align="center">
-<a href="https://github.com/Paquito1923/elyasmd"><img title="Followers" src="https://img.shields.io/github/followers/Paquito1923?color=blue&style=flat-square"></a>
-<a href="https://github.com/Paquito1923/elyasmd"><img title="Stars" src="https://img.shields.io/github/stars/Paquito1923/elyasmd?color=red&style=flat-square"></a>
-<a href="https://github.com/Paquito1923/elyasmd/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Paquito1923/elyasmd?color=red&style=flat-square"></a>
-<a href="https://github.com/Paquito1923/elyasmdwatchers"><img title="Watching" src="https://img.shields.io/github/watchers/Paquito1923/elyasmd?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/FahriAdison/Marin-MD-V2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/FahriAdison/Marin-MD-V2?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/FahriAdison/Marin-MD-V2/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/FahriAdison/Marin-MD-V2?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/FahriAdison/Marin-MD-V2/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/FahriAdison/Marin-MD-V2?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/FahriAdison/Marin-MD-V2/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/FahriAdison/Marin-MD-V2?label=Contributors&color=blue&style=flat-square"></a>
+<a href="https://github.com/FahriAdison/Marin-MD-V2/issues"><img title="Issues" src="https://img.shields.io/github/issues/FahriAdison/Marin-MD-V2?label=Issues&color=success&style=flat-square"></a>
+<a href="https://github.com/FahriAdison/Marin-MD-V2/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/FahriAdison/Marin-MD-V2?label=Issues&color=red&style=flat-square"></a>
+<a href="https://github.com/FahriAdison/Marin-MD-V2/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/FahriAdison/Marin-MD-V2?label=PullRequest&color=success&style=flat-square"></a>
+<a href="https://github.com/FahriAdison/Marin-MD-V2/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/FahriAdison/Marin-MD-V2?label=PullRequest&color=red&style=flat-square"></a>
 </p>
 
 ---
 
-# Ebot Whatsapp MD
+# Marin Whatsapp MD
 ## Information
-> EBOT whatsapp using a Baileys library.
+> Marin whatsapp using a Baileys library.
 > Jika kamu menemukan semacam bug, harap untuk dimaklumi sementara
 >
 > • NOTE: INI SC GAK BISA BUAT SESSION DI TERMUX YA, JADI KALIAN CARI SESSION DULU PAKAI SC LAIN 
@@ -39,6 +43,9 @@
   </a href="https://github.com/ilmanhdyt"><img src="https://github.com/Paquito1923.png?size=128" height="128" width="128" /></a>
   </a href="https://github.com/ilmanhdyt"><img src="https://github.com/ilmanhdyt.png?size=128" height="128" width="128" /></a>
   <a href="https://github.com/BochilGaming"><img src="https://github.com/BochilGaming.png?size=128" height="128" width="128" /></a>
+  <h3 align="center">Recode By :</h3>
+<p align="center">
+  </a href="https://github.com/FahriAdison"><img src="https://github.com/FahriAdison.png?size=128" height="128" 
 </p>
 
 ## How To Change Menu Display
@@ -109,8 +116,8 @@ let message = await prepareWAMessageMedia({ video: fs.readFileSync('./media/menu
 * Unduh & Instal ImageMagick [`Klik Disini`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/Paquito1923/elyasmd
-cd elyasmd
+git clone https://github.com/FahriAdison/Marin-MD-V2
+cd Marin-MD-V2
 npm install
 npm update
 npm index
@@ -128,13 +135,15 @@ pkg install nodejs
 pkg install ffmpeg
 pkg install imagemagick
 pkg install yarn
-git clone https://github.com/Paquito1923/elyasmd
-cd elyasmd
+git clone https://github.com/FahriAdison/Marin-MD-V2
+cd Marin-MD-V2
 yarn
 mc
 ganti session
 node .
 ```
+Download Modules
+[Here](https://drive.google.com/file/d/1Rr4xDLfA1OBpJ86PCrUFlNTuJX3KSCHN/view?usp=sharing)
 
 ## UNTUK PENGGUNA HEROKU
 

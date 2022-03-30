@@ -1,4 +1,5 @@
 const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys-md')
+wm = global.wm
 let fs = require('fs')
 let path = require('path')
 let levelling = require('../lib/levelling')
@@ -6,7 +7,9 @@ let tags = {
   'main': '*MENU UTAMA*',
   'advanced': '*ADVANCED*',
   'absen': '*MENU ABSEN*',
+  'rpg': '*MENU RPG*',
   'anime': '*MENU ANIME*',
+  'nsfw': '*MENU NSFW*',
   'sticker': '*MENU CONVERT*',
   'downloader': '*MENU DOWNLOADER*',
   'xp': '*MENU EXP*',
@@ -22,28 +25,39 @@ let tags = {
   'maker': '*MENU MAKER*',
   'owner': '*MENU OWNER*',
   'quotes' : '*MENU QUOTES*',
-  'rpg': '*MENU RPG*',
   'stalk': '*MENU STALK*',
   'tools': '*MENU TOOLS*',
 }
 const defaultMenu = {
   before: `
-╭────❑ *MENU* ❑────
-❑────❑ %me
-│✾ Version: %version
-│✾ Library: Baileys-MD
-│✾ Mode: ${global.opts['self'] ? 'Self' : 'publik'}
-│✾ Runtime: %uptime
-╰❑
-╭────❑「 INFO 」❑────
-${informasibot}
-╰────
-
-%readmore`.trimStart(),
-  header: '╭─「 %category 」',
-  body: '│ • %cmd %islimit %isPremium',
-  footer: '╰────\n',
-  after: `
+┏━━「 ${wm} 」━⬣
+┃⬡📊 *Version*: %version
+┃⬡🗃️ *Lib*: Baileys-MD
+┃⬡🧪 *Mode:* ${global.opts['self'] ? 'Self' : 'publik'}
+┃⬡⏰ *Uptime:* %uptime
+┗⬣
+┏━━⬣ 𝙄𝙉𝙁𝙊 𝙐𝙎𝙀𝙍 ━⬣
+┃⬡ 📇 *Name*:  %name 
+┃⬡ 🆔 *Status*: ---
+┃⬡ 🎫 *Limit*: %limit
+┃⬡ 💹 *Money*: %money
+┃⬡ ✨ *Exp*: %totalexp
+┃⬡ 📊 *Level*: %level
+┃⬡ 📍 *Role*: %role
+┃⬡ 💲Premium : ${global.prem ? '✅' : '❌'}
+┗⬣
+┏━━⬣ 𝙄𝙉𝙁𝙊 𝙎𝙏𝘼𝙏𝙐𝙎 ━⬣
+┃
+┃⬡ *${Object.keys(global.db.data.users).length}* Pengguna
+┃⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
+┃⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
+┃
+┗⬣
+  %readmore`.trimStart(), 
+    header: '┏━━「 %category 」━⬣',
+    body: '┃ ◇ %cmd %islimit %isPremium',
+    footer: '┗━━━━━━⬣\n',
+    after: `
 *%npmname@^%version*
 ${'```%npmdesc```'}
 `,
@@ -154,7 +168,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            hydratedContentText: text.trim(),
            locationMessage: { 
            jpegThumbnail: fs.readFileSync('./src/welcome.jpg') },
-           hydratedFooterText: `🅛=limit 🅟=premium`,
+           hydratedFooterText: `Ⓛ=limit Ⓟ=premium`,
            hydratedButtons: [{
              urlButton: {
                displayText: '📍Instagram',
@@ -165,15 +179,22 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
              {
              urlButton: {
                displayText: 'Owner',
-               PhoneNumber: 'https://bit.ly/3FWls1N'
+               PhoneNumber: 'https://wa.me/17608914335'
              }
 
            },
            {
-             quickReplyButton: {
-               displayText: 'Profile',
-               id: '.profile',
-             }
+            quickReplyButton: {
+              displayText: 'Owner',
+              id: '.owner',
+            }
+
+          },
+              {
+            quickReplyButton: {
+              displayText: 'SC',
+              id: '.sc',
+            }
            }]
          }
        }
