@@ -20,6 +20,7 @@
 <a href="https://github.com/FahriAdison/Marin-MD-V2/issues"><img title="Issues" src="https://img.shields.io/github/issues/FahriAdison/Marin-MD-V2?label=Issues&color=success&style=flat-square"></a>
 <a href="https://github.com/FahriAdison/Marin-MD-V2/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/FahriAdison/Marin-MD-V2?label=Issues&color=red&style=flat-square"></a>
 <a href="https://github.com/FahriAdison/Marin-MD-V2/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/FahriAdison/Marin-MD-V2?label=PullRequest&color=success&style=flat-square"></a>
+<a href="https://www.youtube.com/channel/UC3zScvuQfMxqiTC5x_JUEng"><img src="https://img.shields.io/youtube/channel/subscribers/UC3zScvuQfMxqiTC5x_JUEng?style=social" /> <br>
 <a href="https://github.com/FahriAdison/Marin-MD-V2/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/FahriAdison/Marin-MD-V2?label=PullRequest&color=red&style=flat-square"></a>
 </p>
 
