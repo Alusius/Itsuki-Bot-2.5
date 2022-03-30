@@ -213,11 +213,11 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
     if (teks == '404') {
       const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
-            title: `*Hai* ${name}`,
-            description: `${ucapan()}\n*Silahkan Pilih List Menu*\n*Di Bawah Ya*`,
+            title: `*${ucapan()}, ${name}*`,
+            description: `┏━━〔 *Ｍａｒｉｎ－ＭＤ* 〕━⬣\n┃⬡ 𝘼𝙠𝙩𝙞𝙛 𝙎𝙚𝙡𝙖𝙢𝙖 _*${uptime}*_\n┃⬡ _*${Object.keys(global.db.data.users).length}*_ 𝙋𝙚𝙣𝙜𝙜𝙪𝙣𝙖\n┃⬡ 𝙈𝙤𝙙𝙚 : *${global.opts['self'] ? 'Self' : 'publik'}*\n┗━━━━━━━━⬣`,
             buttonText: 'LIST MENU',
             listType: 1,
-            footerText: "Silahkan Tekan Tombol \"LIST MENU\" Untuk Melihat Menu Bot\n\nJika Menemukan Bug/Kesulitan Dalam Penggunaan Bot Silahkan Laporkan/Tanyakan Kepada Owner",
+            footerText: "Join Group Bot\nhttps://chat.whatsapp.com/BkxbwERGX9x0mAhAsiDWxP\n>‿‿<",
             mtype: 'listMessage',
             sections: [
               {
@@ -235,7 +235,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
                 "rows": [{
                   "title": `SEMUA PERINTAH`,
                   "description": "Menampilkan Menu All",
-                  "rowId": '.menu2'
+                  "rowId": '.allmenu'
                   }, {
                   "title": "ABSEN & VOTING",
                   "description": "Menampilkan Menu Absen",
@@ -333,9 +333,10 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
                 "title": "LIST MENU"
               }
             ], "contextInfo": {
-              "stanzaId": m.key.id,
-              "participant": m.sender,
-              "quotedMessage": m.message
+               "stanzaId": m.key.id,
+               "participant": "0@s.whatsapp.net",
+               "remoteJid": "6283136505591-1614953337@g.us",
+               "quotedMessage": m.message
             }
     }}), { userJid: m.participant || m.key.remoteJid, quoted: m });
     return await conn.relayMessage(
@@ -428,18 +429,18 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Selamat dinihari🌃"
+  res = "Selamat dinihari"
   if (time >= 4) {
-    res = "Selamat pagi🏞️"
+    res = "Selamat pagi"
   }
   if (time > 10) {
-    res = "Selamat siang🏙️"
+    res = "Selamat siang"
   }
   if (time >= 15) {
-    res = "Selamat sore🌇"
+    res = "Selamat sore"
   }
   if (time >= 18) {
-    res = "Selamat malam🌌"
+    res = "Selamat malam"
   }
   return res
 }
