@@ -1,4 +1,8 @@
 <p align="center">
+  <a href="https://github.com/FahriAdison"><img src="http://readme-typing-svg.herokuapp.com?color=ffc012&center=true&vCenter=true&multiline=false&lines=My+Name+Fahri+Adison;I+Learn+Html+And+Javascript;I+Am+15+Years+Old;I+live+In+Indonesian;In+Kabupaten+Indragiri+Hulu;Don't+bully+me+im+still+noob≧▽≦" alt="Asu">
+</p>
+
+<p align="center">
 <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ea5fe983-3ed6-4652-84a4-933a663d784b/deytppn-e87cdb19-ad39-4247-b629-9dcede510a32.jpg/v1/fill/w_1280,h_1278,q_75,strp/marin_kitagawa_by_eynight74_deytppn-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI3OCIsInBhdGgiOiJcL2ZcL2VhNWZlOTgzLTNlZDYtNDY1Mi04NGE0LTkzM2E2NjNkNzg0YlwvZGV5dHBwbi1lODdjZGIxOS1hZDM5LTQyNDctYjYyOS05ZGNlZGU1MTBhMzIuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.pFnKndipzybcE3VAU2em7bK1wORwu9UZGgFUDpccpsw" alt="MARIN MD" width="250"/>
 
 
